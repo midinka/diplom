@@ -1,0 +1,16 @@
+INSERT INTO advisors (
+    department_num,
+    firstname,
+    name,
+    lastname,
+    academic_degree,
+    academic_title
+)
+SELECT 
+    department_num,
+    firstname,
+    name,
+    lastname,
+    academic_degree,
+    academic_title 
+FROM advisors_temp;
