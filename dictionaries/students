@@ -1,0 +1,2 @@
+update STUDENTS set FIRSTNAME = :Z where ID_STUD = :Y and FIRSTNAME = :X and NAME = :W and LASTNAME = :V and CONTACT_NUMBER = :U and MAIL = :T and COURSE_NUM = :S and AREA = :R and DIRECTION = :Q and THESIS = :P and STATUS = :O and ADVISOR_ID = :N 
+и т.д.
