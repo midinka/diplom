@@ -1,0 +1,6 @@
+select s.name, s.sem_num, s.exam_type, g.grade 
+from grades g
+left join students stud on g.student_id = stud.id_stud 
+left join subjects s on g.subject_id = s.id 
+WHERE g.student_id IN (:ID_STUD) AND S.sem_num IN ('1', '2')
+ORDER by s.sem_num asc
