@@ -1,0 +1,9 @@
+select stud.firstname, stud.name, stud.mail, stud.course_num, count(g.name_of_publication) as quantity
+from publications g
+left join students stud on g.student_id = stud.id_stud 
+WHERE g.student_id IN (
+        SELECT id_stud
+        FROM students
+        WHERE advisor_id IN (:ADVISOR_ID)
+)
+group by stud.firstname, stud.name, stud.mail, stud.course_num
