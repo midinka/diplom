@@ -1,0 +1,26 @@
+INSERT INTO students (
+    firstname,
+name,
+lastname,
+contact_number,
+mail,
+course_num,
+area,
+direction,
+thesis,
+status,
+advisor_id
+)
+SELECT 
+        firstname,
+name,
+lastname,
+contact_number,
+mail,
+course_num,
+area,
+direction,
+thesis,
+status,
+advisor_id
+FROM students_temp;
