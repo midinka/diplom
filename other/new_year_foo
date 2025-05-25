@@ -1,0 +1,10 @@
+UPDATE students
+SET 
+	status = CASE 
+                WHEN course_num > 3 THEN 'graduated' 
+                ELSE status 
+             END,
+    course_num = CASE 
+                    WHEN course_num <= 3 THEN course_num + 1 
+                    ELSE course_num 
+                 END
