@@ -5,3 +5,11 @@
 -	Удобный интерфейс. Система предоставляет простой и интуитивно понятный интерфейс для всех пользователей: аспирантов, преподавателей и сотрудников кафедры.
 
 ![image](https://github.com/user-attachments/assets/d7db066c-e992-4323-b57a-bd0419971c0f)
+
+
+
+![image](https://github.com/user-attachments/assets/53c7c2c6-9e66-4bdd-9130-57d9dd30731a)
+
+
+
+![image](https://github.com/user-attachments/assets/d2edc96e-ae7b-4ce2-b96b-c3942fb31882)
